@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="HSL.GovUkDesignSystem" constructor="DateComponent" version="0.0.1" display-name-key="HSL GUDS Component" description-key="Hitachi Solutions PCF implementation of GOV.UK Design System Date component." control-type="standard" >
+    <!--external-service-usage node declares whether this 3rd party PCF control is using external service or not, if yes, this control will be considered as premium and please also add the external domain it is using.
+    If it is not using any external service, please set the enabled="false" and DO NOT add any domain below. The "enabled" will be false by default.
+    Example1:
+      <external-service-usage enabled="true">
+        <domain>www.Microsoft.com</domain>
+      </external-service-usage>
+    Example2:
+      <external-service-usage enabled="false">
+      </external-service-usage>
+    -->
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="dateValue" display-name-key="Date Value" description-key="Value of the date field this component is being used on." of-type-group="dates" usage="bound" required="true"  />
+    <property name="heading" display-name-key="Heading" description-key="What is the date you intend to capture?" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="fieldIdentifierErrorMessage" display-name-key="Field Error Message" description-key="Provide error message specific text (eg [whatever it is]), for example: ‘Enter [whatever it is]’: ‘Enter your date of birth’" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="hint" display-name-key="Hint" description-key="Make sure that any example dates you use in hint text are valid for the question being asked" of-type="SingleLine.Text" usage="input" required="true" />
+     
+    <property name="uniqueIdentifier" display-name-key="Unique Identifier" description-key="Unique idenfier for this fields control on form. Unless same field is present more than once on the form, use the field logical name. Only use lowercase letters and underscores." of-type="SingleLine.Text" usage="input" required="true"  />
+
+    <property name="relativeToToday" display-name-key="Relative to today" description-key="Constrain date to fall in future or past, relative to today." of-type="Enum" usage="input" required="false">
+     <value name="dateMustBeInThePast" display-name-key="Date must be in the past" description-key="Date must be in the past">1</value>
+     <value name="dateMustBeTodayOrInThePast" display-name-key="Date must be today or in the past" description-key="Date must be today or in the past">2</value>
+     <value name="dateMustBeInTheFuture" display-name-key="Date must be in the future" description-key="Date must be in the future">3</value>
+     <value name="dateMustBeTodayOrInTheFuture" display-name-key="Date must be today or in the future" description-key="Date must be today or in the future">4</value>
+    </property>
+
+    <property name="referenceDate1" display-name-key="Date 1" description-key="Reference date for relative to another date, or lower bounds of must be between two dates" of-type-group="dates" usage="input" required="false" />
+    <property name="referenceDate2" display-name-key="Date 2" description-key="Reference date for upper bounds of must be between two dates" of-type-group="dates" usage="input" required="false" />
+
+    <property name="relativeToAnotherDate" display-name-key="Relative to another [date 1]" description-key="Constrain date to fall in the future or past, relative to [date 1], or be between [date 1] and [date 2]" of-type="Enum" usage="input" required="false">
+     <value name="mustBeBefore" display-name-key="Must be before" description-key="Must be before date">1</value>
+     <value name="mustBeAfter" display-name-key="Must be after" description-key="Must be after date">2</value>
+     <value name="mustBeSameAsOrBeforeDate" display-name-key="Must be the same as or before" description-key="Must be the same as or before another date">3</value>
+     <value name="mustBeSameAsOrAfterDate" display-name-key="Must be the same as or after" description-key="Must be the same as or after another date">4</value>
+     <value name="mustBeBetween" display-name-key="Must be between [date 1] and [date 2]" description-key="Date must be between [date 1] and [date 2]">5</value>
+    </property>
+
+    <type-group name="dates">
+        <type>DateAndTime.DateAndTime</type>
+        <type>DateAndTime.DateOnly</type>
+    </type-group>
+    <!-- 
+      Property node's of-type attribute can be of-type-group attribute. 
+      Example:
+      <type-group name="numbers">
+        <type>Whole.None</type>
+        <type>Currency</type>
+        <type>FP</type>
+        <type>Decimal</type>
+      </type-group>
+      <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type-group="numbers" usage="bound" required="true" />
+    -->
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="govuk-frontend-3.13.0.min.css" order="1" />
+      <!-- UNCOMMENT TO ADD MORE RESOURCES
+      <css path="css/DateComponent.css" order="1" />
+      <resx path="strings/DateComponent.1033.resx" version="1.0.0" />
+      -->
+    </resources>
+    <!-- UNCOMMENT TO ENABLE THE SPECIFIED API
+    <feature-usage>
+      <uses-feature name="Device.captureAudio" required="true" />
+      <uses-feature name="Device.captureImage" required="true" />
+      <uses-feature name="Device.captureVideo" required="true" />
+      <uses-feature name="Device.getBarcodeValue" required="true" />
+      <uses-feature name="Device.getCurrentPosition" required="true" />
+      <uses-feature name="Device.pickFile" required="true" />
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+    -->
+  </control>
+</manifest>
