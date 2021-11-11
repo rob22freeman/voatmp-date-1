@@ -1,7 +1,7 @@
 /* eslint-disable */
 import { any } from "prop-types";
 import {IInputs, IOutputs} from "./generated/ManifestTypes";
-//Testing source control - RF
+
 //Import Nunjucks libraries
 import * as Nunjucks from "nunjucks";
 import { parse } from "path";
