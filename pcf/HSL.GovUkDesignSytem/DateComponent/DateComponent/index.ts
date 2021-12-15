@@ -108,6 +108,7 @@ export class DateComponent implements ComponentFramework.StandardControl<IInputs
 		this._containerLabel = this._uniqueIdentifier + "_Container";
 	
 		//Configure and render Nunjucks templates
+/*
 		var runOnServer = "http://127.0.0.1:8080/";
 		require('govuk-frontend');
 		var templatePath = "node_modules/govuk-frontend/govuk/components/";
@@ -127,12 +128,48 @@ export class DateComponent implements ComponentFramework.StandardControl<IInputs
 			  text: this._hint
 			}
 		  }});
-
+*/
 		this._container = document.createElement("div");
 		this._container.innerHTML =
 		// Override that PCF Test Environment aligns to centre
 			"<style>.control-pane{text-align:unset;}</style>\n" +
-			renderedNunjucksTemplate;
+		//	renderedNunjucksTemplate;
+
+"			<div class=\"govuk-form-group\">" +
+"			<fieldset class=\"govuk-fieldset\" role=\"group\" aria-describedby=" + this._hintId + ">" +
+"			  <legend class=\"govuk-fieldset__legend govuk-fieldset__legend--l\">" +
+"				<h1 class=\"govuk-fieldset__heading\">" +
+"				  " + this._heading + "" +
+"				</h1>" +
+"			  </legend>" +
+"			  <div id=" + this._hintId + " class=\"govuk-hint\">" +
+"				" + this._hint + "" +
+"			  </div>" +
+"			  <div class=\"govuk-date-input\" id=" + this._uniqueIdentifier + ">" +
+"				<div class=\"govuk-date-input__item\">" +
+"				  <div class=\"govuk-form-group\">" +
+"					<label class=\"govuk-label govuk-date-input__label\" for=" + this._dayId + ">" +
+"					  Day" +
+"					</label>" +
+"					<input class=\"govuk-input govuk-date-input__input govuk-input--width-2\" id=" + this._dayId + " name=" + this._dayId + " type=\"text\" pattern=\"[0-9]*\" inputmode=\"numeric\"></div>" +
+"				</div>" +
+"				<div class=\"govuk-date-input__item\">" +
+"				  <div class=\"govuk-form-group\">" +
+"					<label class=\"govuk-label govuk-date-input__label\" for=" + this._monthId + ">" +
+"					  Month" +
+"					</label>" +
+"					<input class=\"govuk-input govuk-date-input__input govuk-input--width-2\" id=" + this._monthId + " name=" + this._monthId + " type=\"text\" pattern=\"[0-9]*\" inputmode=\"numeric\"></div>" +
+"				</div>" +
+"				<div class=\"govuk-date-input__item\">" +
+"				  <div class=\"govuk-form-group\">" +
+"					<label class=\"govuk-label govuk-date-input__label\" for=" + this._yearId + ">" +
+"					  Year" +
+"					</label>" +
+"					<input class=\"govuk-input govuk-date-input__input govuk-input--width-4\" id=" + this._yearId + " name=" + this._yearId + " type=\"text\" pattern=\"[0-9]*\" inputmode=\"numeric\"></div>" +
+"				</div>" +
+"			  </div>" +
+"			</fieldset>" +
+"		  </div>"
 
 		container.appendChild(this._container);
 

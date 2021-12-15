@@ -14,7 +14,7 @@
           "build/Microsoft.NETFramework.ReferenceAssemblies.net462.targets": {}
         }
       },
-      "Microsoft.PowerApps.MSBuild.Pcf/1.9.8": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.9.9": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -362,10 +362,10 @@
         "microsoft.netframework.referenceassemblies.net462.nuspec"
       ]
     },
-    "Microsoft.PowerApps.MSBuild.Pcf/1.9.8": {
-      "sha512": "1rIqcKnsn3js00m4EPlXxg/SVUDwGie2doDApRdnszBzUUdp7p2uHJBZ1JInaYHx63zu9YdLhtFw7RlHrIQabg==",
+    "Microsoft.PowerApps.MSBuild.Pcf/1.9.9": {
+      "sha512": "ioukXAwruJgRTzeE8WHpHBrFoW9MtN1wTlY7tpWyFhyhuJ2/m+CxK9gZ0wtaKWDpNRoOMLss+haUz+E/4fJM1g==",
       "type": "package",
-      "path": "microsoft.powerapps.msbuild.pcf/1.9.8",
+      "path": "microsoft.powerapps.msbuild.pcf/1.9.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -373,7 +373,7 @@
         "LICENSE.txt",
         "build/Microsoft.PowerApps.MSBuild.Pcf.props",
         "build/Microsoft.PowerApps.MSBuild.Pcf.targets",
-        "microsoft.powerapps.msbuild.pcf.1.9.8.nupkg.sha512",
+        "microsoft.powerapps.msbuild.pcf.1.9.9.nupkg.sha512",
         "microsoft.powerapps.msbuild.pcf.nuspec"
       ]
     }
@@ -390,11 +390,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rfreeman\\source\\repos\\HMRC\\voatmp-latest\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\DateComponent.pcfproj",
+      "projectUniqueName": "C:\\Users\\rfreeman\\source\\repos\\voatmp-date-1\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\DateComponent.pcfproj",
       "projectName": "DateComponent",
-      "projectPath": "C:\\Users\\rfreeman\\source\\repos\\HMRC\\voatmp-latest\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\DateComponent.pcfproj",
+      "projectPath": "C:\\Users\\rfreeman\\source\\repos\\voatmp-date-1\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\DateComponent.pcfproj",
       "packagesPath": "C:\\Users\\rfreeman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rfreeman\\source\\repos\\HMRC\\voatmp-latest\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\obj\\",
+      "outputPath": "C:\\Users\\rfreeman\\source\\repos\\voatmp-date-1\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rfreeman\\AppData\\Roaming\\NuGet\\NuGet.Config"

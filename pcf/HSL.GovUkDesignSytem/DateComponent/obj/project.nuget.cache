@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5U7sjwOLwqq3su6sZIf9fEX0eJnWHbLk3nW+dw46F4gcRjmZ3pnbxS2OQoskqLe//F16NxI+H+QIKyGQ/gYmWQ==",
+  "dgSpecHash": "FCguhPUvZlxdb9Oma/QuqSNXFL6mhe/yCjowG3CZ9xPNocAZuADpcsq4bj+8wgd4A4XJ0cXQUvCm6kIe7ak9Ag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rfreeman\\source\\repos\\HMRC\\voatmp-latest\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\DateComponent.pcfproj",
+  "projectFilePath": "C:\\Users\\rfreeman\\source\\repos\\voatmp-date-1\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\DateComponent.pcfproj",
   "expectedPackageFiles": [
     "C:\\Users\\rfreeman\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
     "C:\\Users\\rfreeman\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net462\\1.0.0\\microsoft.netframework.referenceassemblies.net462.1.0.0.nupkg.sha512",
-    "C:\\Users\\rfreeman\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.9.8\\microsoft.powerapps.msbuild.pcf.1.9.8.nupkg.sha512"
+    "C:\\Users\\rfreeman\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.9.9\\microsoft.powerapps.msbuild.pcf.1.9.9.nupkg.sha512"
   ],
   "logs": []
 }

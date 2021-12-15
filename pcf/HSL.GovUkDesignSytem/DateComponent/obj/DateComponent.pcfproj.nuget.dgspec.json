@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rfreeman\\source\\repos\\HMRC\\voatmp-latest\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\DateComponent.pcfproj": {}
+    "C:\\Users\\rfreeman\\source\\repos\\voatmp-date-1\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\DateComponent.pcfproj": {}
   },
   "projects": {
-    "C:\\Users\\rfreeman\\source\\repos\\HMRC\\voatmp-latest\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\DateComponent.pcfproj": {
+    "C:\\Users\\rfreeman\\source\\repos\\voatmp-date-1\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\DateComponent.pcfproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rfreeman\\source\\repos\\HMRC\\voatmp-latest\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\DateComponent.pcfproj",
+        "projectUniqueName": "C:\\Users\\rfreeman\\source\\repos\\voatmp-date-1\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\DateComponent.pcfproj",
         "projectName": "DateComponent",
-        "projectPath": "C:\\Users\\rfreeman\\source\\repos\\HMRC\\voatmp-latest\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\DateComponent.pcfproj",
+        "projectPath": "C:\\Users\\rfreeman\\source\\repos\\voatmp-date-1\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\DateComponent.pcfproj",
         "packagesPath": "C:\\Users\\rfreeman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rfreeman\\source\\repos\\HMRC\\voatmp-latest\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\obj\\",
+        "outputPath": "C:\\Users\\rfreeman\\source\\repos\\voatmp-date-1\\pcf\\HSL.GovUkDesignSytem\\DateComponent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rfreeman\\AppData\\Roaming\\NuGet\\NuGet.Config"

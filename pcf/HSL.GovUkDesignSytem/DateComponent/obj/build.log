@@ -1,41 +1,46 @@
 ﻿  Determining projects to restore...
   All projects are up-to-date for restore.
   
-  > pcf-project@1.0.0 clean C:\Users\rfreeman\source\repos\HMRC\voatmp-latest\pcf\HSL.GovUkDesignSytem\DateComponent
-  > pcf-scripts clean "--noColor" "--buildMode" "development" "--outDir" "C:\Users\rfreeman\source\repos\HMRC\voatmp-latest\pcf\HSL.GovUkDesignSytem\DateComponent\out\controls" "--buildSource" "MSBuild"
+  > pcf-project@1.0.0 clean C:\Users\rfreeman\source\repos\voatmp-date-1\pcf\HSL.GovUkDesignSytem\DateComponent
+  > pcf-scripts clean "--noColor" "--buildMode" "development" "--outDir" "C:\Users\rfreeman\source\repos\voatmp-date-1\pcf\HSL.GovUkDesignSytem\DateComponent\out\controls" "--buildSource" "MSBuild"
   
-  [17:45:57] [clean]  Initializing...
-  [17:45:57] [clean]  Cleaning build outputs...
-  [17:45:57] [clean]  Succeeded
+  [10:43:55] [clean]  Initializing...
+  [10:43:55] [clean]  Cleaning build outputs...
+  [10:43:55] [clean]  Succeeded
   Cleaning output directory: bin\Debug\, Intermediate directory: obj\Debug\ and Solution Packager working directory: obj\Debug\
-  Removing log file: bin\Debug\SolutionPackager.log and generated solution package: bin\Debug\PowerAppsTools_hsl.zip
+  Removing log file: obj\Debug\SolutionPackager.log and generated solution package: bin\Debug\PowerAppsTools_new.zip
   
-  > pcf-project@1.0.0 build C:\Users\rfreeman\source\repos\HMRC\voatmp-latest\pcf\HSL.GovUkDesignSytem\DateComponent
-  > pcf-scripts build "--noColor" "--buildMode" "development" "--outDir" "C:\Users\rfreeman\source\repos\HMRC\voatmp-latest\pcf\HSL.GovUkDesignSytem\DateComponent\out\controls" "--buildSource" "MSBuild"
+  > pcf-project@1.0.0 build C:\Users\rfreeman\source\repos\voatmp-date-1\pcf\HSL.GovUkDesignSytem\DateComponent
+  > pcf-scripts build "--noColor" "--buildMode" "development" "--outDir" "C:\Users\rfreeman\source\repos\voatmp-date-1\pcf\HSL.GovUkDesignSytem\DateComponent\out\controls" "--buildSource" "MSBuild"
   
-  [17:46:03] [build]  Initializing...
-  [17:46:03] [build]  Validating manifest...
-  [17:46:03] [build]  Validating control...
-  [17:46:06] [build]  Generating manifest types...
-  [17:46:06] [build]  Generating design types...
-  [17:46:06] [build]  Compiling and bundling control...
+  [10:43:58] [build]  Initializing...
+  [10:43:58] [build]  Validating manifest...
+  [10:43:58] [build]  Validating control...
+  [10:44:00] [build]  Generating manifest types...
+  [10:44:00] [build]  Generating design types...
+  [10:44:00] [build]  Compiling and bundling control...
+  Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  
+  Why you should do it regularly:
+  https://github.com/browserslist/browserslist#browsers-data-updating
   [Webpack stats]:
-  Hash: f75e7c4c374daad1a3f7
+  Hash: 6ce34e9aed7872635001
   Version: webpack 4.42.1
-  Time: 5949ms
-  Built at: 14/10/2021 17:46:12
+  Time: 2644ms
+  Built at: 14/12/2021 10:44:03
       Asset     Size  Chunks             Chunk Names
-  bundle.js  315 KiB    main  [emitted]  main
+  bundle.js  317 KiB    main  [emitted]  main
   Entrypoint main = bundle.js
-  [./DateComponent/index.ts] 32.1 KiB {main} [built]
+  [./DateComponent/index.ts] 34 KiB {main} [built]
   [./node_modules/nunjucks/browser/nunjucks.js] 252 KiB {main} [built]
   [./node_modules/process/browser.js] 4.96 KiB {main} [built]
   [./node_modules/setimmediate/setImmediate.js] 5.81 KiB {main} [built]
   [./node_modules/timers-browserify/main.js] 1.85 KiB {main} [built]
   [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 475 bytes {main} [built]
-  [17:46:12] [build]  Generating build outputs...
-  [17:46:12] [build]  Succeeded
-  Running Solution Packager to build package type: Unmanaged bin\Debug\PowerAppsTools_hsl.zip
-  Solution: bin\Debug\PowerAppsTools_hsl.zip generated.
+  [10:44:03] [build]  Generating build outputs...
+  [10:44:03] [build]  Succeeded
+  Running Solution Packager to build package type: Unmanaged bin\Debug\PowerAppsTools_new.zip
+  Solution: bin\Debug\PowerAppsTools_new.zip generated.
   Solution Package Type: Unmanaged generated.
   Completed intermiediate files clean up.
